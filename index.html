@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            padding: 10px 0;
+            text-align: center;
+            color: white;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .pdf-section {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .pdf-link {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .pdf-link:hover {
+            background-color: #45a049;
+        }
+        iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+            margin-top: 20px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>欢迎来到我的个人网页</h1>
+</header>
+
+<div class="container">
+    <h2>教材解读</h2>
+    <p>这是我编写的一本教材解读，涵盖了主要内容和知识点，帮助读者更好地理解教材内容。</p>
+    
+    <!-- PDF 嵌入部分 -->
+    <div class="pdf-section">
+        <iframe src="your-textbook.pdf" title="教材解读"></iframe>
+    </div>
+    
+    <!-- PDF 下载链接 -->
+    <div class="pdf-section">
+        <a href="your-textbook.pdf" class="pdf-link" download>下载教材解读 PDF</a>
+    </div>
+</div>
+
+<footer>
+    <p>© 2024 个人网页 - 版权所有</p>
+</footer>
+
+</body>
+</html>
